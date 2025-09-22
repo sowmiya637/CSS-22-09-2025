@@ -7,12 +7,6 @@
 -  **Responsive Design** using media queries  
 -  Styled using **pure CSS** (no frameworks)
 
----
-
-## 📸 Preview
-
-![Preview Screenshot](#)  
-
 ##  Technologies Used
 
 - **HTML5**
