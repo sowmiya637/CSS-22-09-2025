@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Types with px and em</title>
+  <style>
+    /* Root font size */
+    html {
+      font-size: 16px; /* 1rem = 16px */
+    }
+
+    /* Type Selector */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 2em;
+    }
+
+    /* Class Selector */
+    .card {
+      width: 300px;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1.5em; /* Relative padding */
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); /* value type: color with rgba */
+    }
+
+    .card h2 {
+      font-size: 1.5em; /* 1.5 * 16px = 24px */
+      margin-bottom: 0.5em;
+    }
+
+    .card p {
+      font-size: 1em; /* 1em = 16px */
+      line-height: 1.4;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;  /*  Elements to appear side by side */
+      font-size: 1rem; /* 1rem = 16px */
+      padding: 0.5em 1.5em; /* Top/bottom = 8px, Left/right = 24px */
+      background-color: #0064ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1em;
+    }
+
+    /* Pseudo-class selector */
+    .btn:hover {
+      background-color: #0047b3;
+    }
+
+    /* ID Selector */
+    #footer {
+      text-align: center;
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>CSS Types Demo</h2>
+    <p>This card uses different CSS types like px, em, class selectors, and more.</p>
+    <button class="btn">Learn More</button>
+  </div>
+
+  <div id="footer">
+    &copy; 2025 CSS Learning Example
+  </div>
+
+</body>
+</html>
